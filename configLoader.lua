@@ -40,7 +40,7 @@ eventConfig = {
     KEEP_PETS_AGE = 90,
 
      -- EQUIP_PETS Priority (Left -> Right)
-    EQUIP_PETS = {["Rooster"] = 2, ["Capybara"] = 1,, ["Starfish"] = 3, ["Gorilla Chef"]=2},
+    EQUIP_PETS = {["Rooster"] = 2, ["Capybara"] = 1, ["Starfish"] = 3, ["Gorilla Chef"]=2},
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },  -- Unequip from garden
 
@@ -95,7 +95,7 @@ eventConfig = {
     KEEP_PETS_AGE = 90,
 
      -- EQUIP_PETS Priority (Left -> Right)
-    EQUIP_PETS = {["Rooster"] = 2, ["Capybara"] = 1,, ["Starfish"] = 3, ["Gorilla Chef"]=2},
+    EQUIP_PETS = {["Rooster"] = 2, ["Capybara"] = 1, ["Starfish"] = 3, ["Gorilla Chef"]=2},
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },  -- Unequip from garden
 
