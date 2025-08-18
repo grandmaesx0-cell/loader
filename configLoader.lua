@@ -114,7 +114,7 @@ eventConfig = {
     SHOW_WEBHOOK_USERNAME = false,
 }
 local eqs = findSheckles()
-if eqs and eqs >= 100000000 then
+if eqs and eqs >= 10000000 then
     getgenv().gagConfig = eventConfig
 else
     getgenv().gagConfig = freshConfig
