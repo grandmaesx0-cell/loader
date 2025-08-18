@@ -1,7 +1,7 @@
 function findSheckles() -- RETURNS INT
     return tonumber(game:GetService("Players").LocalPlayer.leaderstats.Sheckles.Value) or 0
 end
-eventConfig = {
+freshConfig = {
     -- Event:
     CRAFT_EVENT = { "Anti Bee Egg" },
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Loquat", "Feijoa", "Pitcher Plant" },
