@@ -28,7 +28,7 @@ freshConfig = {
     PLANT_EGGS = { "Sprout Egg", "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Anti Bee Egg", "Bee Egg", "Night Egg", "Bug Egg", "Paradise Egg", "Mythical Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg" },
     
 
-    BUY_SEED_SHOP = { "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus","Coconut","Bamboo","Apple","Pumpkin","Watermelon","Daffodil","Tomato","Orange Tulip","Blueberry","Strawberry", "Carrot"},
+    BUY_SEED_SHOP = { "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Coconut"] = 50, ["Bamboo"] = 200, ["Apple"] = 50, ["Pumpkin"] = 200, ["Watermelon"] = 200, ["Daffodil"] = 200, ["Tomato"] = 50, ["Orange Tulip"] = 200, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 200 },
     KEEP_SEEDS = { "Bone Blossom" },
     KEEP_SEEDS_AFTER_MAX_PLANTS = { "Carrot", "Strawberry", "Blueberry", "Tomato", "Apple" },
     
@@ -85,7 +85,7 @@ eventConfig = {
     PLANT_EGGS = { "Sprout Egg", "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Anti Bee Egg", "Bee Egg", "Night Egg", "Bug Egg", "Paradise Egg", "Mythical Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg" },
     
 
-    BUY_SEED_SHOP = { "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Tomato"] = 50, ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
+    BUY_SEED_SHOP = { "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Coconut"] = 50, ["Bamboo"] = 200, ["Apple"] = 50, ["Pumpkin"] = 200, ["Watermelon"] = 200, ["Daffodil"] = 200, ["Tomato"] = 50, ["Orange Tulip"] = 200, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 200 },
     KEEP_SEEDS = { "Carrot" },
     KEEP_SEEDS_AFTER_MAX_PLANTS = {},
     
