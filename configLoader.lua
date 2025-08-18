@@ -5,7 +5,7 @@ freshConfig = {
     -- Event:
     CRAFT_EVENT = { "Anti Bee Egg" },
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    MAX_EVENT_RESTOCK_SHECKLES = 500_001,  -- Restock stop at 48m
+    MAX_EVENT_RESTOCK_SHECKLES = 1,  -- Restock stop at 48m
     BUY_EVENT_SHOP = { "Sprout Egg", "Spriggan" },
     PLACE_COSMETIC = {"Cooking Cauldron","Pancake Stack"},
 
@@ -60,7 +60,7 @@ eventConfig = {
     -- Event:
     CRAFT_EVENT = { "Anti Bee Egg" },
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    MAX_EVENT_RESTOCK_SHECKLES = 48_000_001,  -- Restock stop at 48m
+    MAX_EVENT_RESTOCK_SHECKLES = 500_001,  -- Restock stop at 48m
     BUY_EVENT_SHOP = { "Sprout Egg", "Spriggan" },
     PLANT_EVENT_TREES = true,  -- This config will replace most plant related config
     PLACE_COSMETIC = {"Cooking Cauldron","Pancake Stack"},
