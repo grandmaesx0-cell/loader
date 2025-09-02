@@ -39,7 +39,7 @@ freshConfig = {
     KEEP_PETS_AGE = 90,
 
      -- EQUIP_PETS Priority (Left -> Right)
-    EQUIP_PETS = {["Glimmering Sprite"] = 8, ["Starfish"] = 3,["Dairy Cow"]= 2,"Sunny-Side Chicken","Koi","Seal","Chicken","Capybara",["Brown Mouse"] = 2, ["Squirrel"] = 1, ["Rooster"] = 4, ["Grey Mouse"] = 2},
+    EQUIP_PETS = {["Glimmering Sprite"] = 8, ["Capybara"]=1, ["Starfish"] = 3,["Rooster"] = 4},
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara", "Brown Mouse", "Grey Mouse", "Rooster" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },  -- Unequip from garden
 
@@ -87,13 +87,13 @@ eventConfig = {
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
     NOTIFY_PETS_WEIGHT = 5,
-    KEEP_PETS = {"Cockatrice", "Pixie", "Imp", "Glimmering Sprite", "Gnome", "Griffin", ["Rooster"] = 5, "Lemon Lion", "Apple Gazelle", "Peach Wasp", "Chicken Zombie", ["Gorilla Chef"] = 8, "Green Bean", ["Golem"] = 2, "Golden Goose", ["Spriggan"] = 2, "Lobster Thermidor", ["Sunny-Side Chicken"] = 18, ["Junkbot"] = 2, "French Fry Ferret", ["Spaghetti Sloth"] = 1, ["Mochi Mouse"] = 1, ["Kodama"] = 1, "Corrupted Kitsune", ["Starfish"] = 10, ["Capybara"] = 1, ["Tanchozuru"] = 1, ["Seal"] = 1, "Kitsune", "Blood Kiwi", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox" },
+    KEEP_PETS = {"Cockatrice", "Pixie", "Imp", "Glimmering Sprite", "Gnome", "Griffin", ["Rooster"] = 7, "Lemon Lion", "Apple Gazelle", "Peach Wasp", "Chicken Zombie", ["Gorilla Chef"] = 8, "Green Bean", ["Golem"] = 2, "Golden Goose", ["Spriggan"] = 2, "Lobster Thermidor", ["Sunny-Side Chicken"] = 18, ["Junkbot"] = 2, "French Fry Ferret", ["Spaghetti Sloth"] = 1, ["Mochi Mouse"] = 1, ["Kodama"] = 1, "Corrupted Kitsune", ["Starfish"] = 10, ["Capybara"] = 1, ["Tanchozuru"] = 1, ["Seal"] = 8, "Kitsune", "Blood Kiwi", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox" },
     KEEP_PETS_WEIGHT = 5,
     KEEP_PETS_AGE = 90,
 
      -- EQUIP_PETS Priority (Left -> Right)
-    EQUIP_PETS = {["Glimmering Sprite"] = 8,["Starfish"] = 3,["Dairy Cow"]= 2,"Sunny-Side Chicken","Koi","Seal","Chicken","Capybara",["Brown Mouse"] = 2, ["Squirrel"] = 1, ["Rooster"] = 4, ["Grey Mouse"] = 2},
-    USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara", "Brown Mouse", "Grey Mouse", "Rooster" },
+    EQUIP_PETS = {["Glimmering Sprite"] = 8, ["Capybara"]=1, ["Starfish"] = 3,["Rooster"] = 4},
+    USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara", "Brown Mouse", "Grey Mouse", "Rooster"},
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },  -- Unequip from garden
 
     BUY_GEAR_SHOP = { "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket" },
