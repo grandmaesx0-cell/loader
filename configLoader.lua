@@ -49,7 +49,7 @@ freshConfig = {
 
     PET_WEBHOOK_URL = marmotWebhookURL,
     SEED_WEBHOOK_URL = marmotWebhookURL, 
-    NOTIFY_PETS = { "Griffin", "Golden Goose", "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", "Kitsune", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "T-Rex", "Red Fox", "Spinosaurus"},
+    NOTIFY_PETS = {"Cockatrice", "Griffin", "Golden Goose", "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", "Kitsune", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "T-Rex", "Red Fox", "Spinosaurus"},
     DISCORD_ID = myDiscordID,
     WEBHOOK_NOTE = "",
     SHOW_WEBHOOK_USERNAME = false,
