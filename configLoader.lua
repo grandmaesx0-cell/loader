@@ -39,7 +39,7 @@ freshConfig = {
     KEEP_PETS_AGE = 90,
 
      -- EQUIP_PETS Priority (Left -> Right)
-    EQUIP_PETS = {["Glimmering Sprite"] = 8, ["Capybara"]=1, ["Starfish"] = 3,["Rooster"] = 4},
+    EQUIP_PETS = {"Glimmering Sprite", ["Capybara"]=1, ["Starfish"] = 3,["Rooster"] = 4},
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara", "Brown Mouse", "Grey Mouse", "Rooster" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },  -- Unequip from garden
 
@@ -92,7 +92,7 @@ eventConfig = {
     KEEP_PETS_AGE = 90,
 
      -- EQUIP_PETS Priority (Left -> Right)
-    EQUIP_PETS = {["Glimmering Sprite"] = 8, ["Capybara"]=1, ["Starfish"] = 3,["Rooster"] = 4},
+    EQUIP_PETS = {"Glimmering Sprite", ["Capybara"]=1, ["Starfish"] = 3,["Rooster"] = 4},
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara", "Brown Mouse", "Grey Mouse", "Rooster"},
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },  -- Unequip from garden
 
