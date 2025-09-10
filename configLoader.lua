@@ -4,8 +4,12 @@ function findSheckles() -- RETURNS INT
 end
 freshConfig = {
     -- Event:
-    CRAFT_EVENT = { "Anti Bee Egg", "Skyroot Chest" },
+    CRAFT_EVENT = { "Anti Bee Egg", "Fairy Net", "Enchanted Chest", "Anti Bee Egg", "Mutation Spray Glimmering" },
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Loquat", "Feijoa", "Pitcher Plant" },
+    
+    BUY_EVENT_SHOP = {"Enchanted Chest", "Luminous Sprite", "Drake" },
+    MAX_EVENT_RESTOCK_SHECKLES = 480000001,
+    
     PLACE_COSMETIC = { "Cooking Kit" },
     CLAIM_FAIRY_REWARD = { "Mutation Spray Glimmering", "Enchanted Egg", "Enchanted Seed Pack", "FairyPoints" },
 
@@ -34,22 +38,22 @@ freshConfig = {
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
     NOTIFY_PETS_WEIGHT = 5,
-    KEEP_PETS = {"Cockatrice", ["Pixie"]=8, ["Imp"]=8, ["Glimmering Sprite"]=8, "Gnome", "Griffin", ["Rooster"] = 5, "Lemon Lion", "Apple Gazelle", "Peach Wasp", "Chicken Zombie", ["Gorilla Chef"] = 8, "Green Bean", ["Golem"] = 2, "Golden Goose", ["Spriggan"] = 2, "Lobster Thermidor", ["Sunny-Side Chicken"] = 18, ["Junkbot"] = 2, "French Fry Ferret", ["Spaghetti Sloth"] = 1, ["Mochi Mouse"] = 1, ["Kodama"] = 1, "Corrupted Kitsune", ["Starfish"] = 10, ["Capybara"] = 1, ["Tanchozuru"] = 1, ["Seal"] = 1, "Kitsune", "Blood Kiwi", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox" },
+    KEEP_PETS = { "Phoenix", "Drake", "Wisp", "Luminous Sprite", "Cockatrice", ["Pixie"]=2, ["Glimmering Sprite"]=8, "Peacock", "Ostrich", "Gnome", "Griffin", ["Rooster"] = 8, "Lemon Lion", "Apple Gazelle", "Peach Wasp", "Chicken Zombie", ["Gorilla Chef"] = 8, "Green Bean", ["Golem"] = 2, "Golden Goose", ["Spriggan"] = 2, "Lobster Thermidor", ["Sunny-Side Chicken"] = 18, ["Junkbot"] = 2, "French Fry Ferret", ["Spaghetti Sloth"] = 1, ["Mochi Mouse"] = 1, ["Kodama"] = 1, "Corrupted Kitsune", ["Starfish"] = 10, ["Capybara"] = 1, ["Tanchozuru"] = 1, ["Seal"] = 1, "Kitsune", "Blood Kiwi", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox" },
     KEEP_PETS_WEIGHT = 5,
-    KEEP_PETS_AGE = 90,
+    KEEP_PETS_AGE = 75,
 
      -- EQUIP_PETS Priority (Left -> Right)
     EQUIP_PETS = {"Glimmering Sprite", ["Capybara"]=1, ["Starfish"] = 3,["Rooster"] = 4},
-    USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara", "Brown Mouse", "Grey Mouse", "Rooster" },
-    REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },  -- Unequip from garden
+    USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara", "Brown Mouse", "Grey Mouse", "Rooster", "Black Bunny", "Dog", "Bunny", "Chicken", "Rooster", "Glimmering Sprite"},
+    REMOVE_PET_MAX_UPGRADE = { "Starfish", "Capybara", "Brown Mouse", "Grey Mouse", "Rooster", "Black Bunny", "Dog", "Bunny", "Chicken", "Rooster"},
 
-    BUY_GEAR_SHOP = { "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket" },
-    USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler"},
+    BUY_GEAR_SHOP = { "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket"--[["Medium Toy", ["Harvest Tool"] = 10, "Cleansing Pet Shard", "Cleaning Spray"--]]},
+    USE_SPRINKLER = { "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler"},
 
 
     PET_WEBHOOK_URL = marmotWebhookURL,
     SEED_WEBHOOK_URL = marmotWebhookURL, 
-    NOTIFY_PETS = {"Cockatrice", "Griffin", "Golden Goose", "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", "Kitsune", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "T-Rex", "Red Fox", "Spinosaurus"},
+    NOTIFY_PETS = {"Drake", "Phoenix", "Cockatrice", "Griffin", "Golden Goose", "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", "Kitsune", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "T-Rex", "Red Fox", "Spinosaurus"},
     DISCORD_ID = myDiscordID,
     WEBHOOK_NOTE = "",
     SHOW_WEBHOOK_USERNAME = false,
@@ -60,8 +64,12 @@ freshConfig = {
 }
 eventConfig = {
     -- Event:
-    CRAFT_EVENT = { "Anti Bee Egg", "Skyroot Chest" },
+    CRAFT_EVENT = { "Anti Bee Egg", "Fairy Net", "Enchanted Chest", "Anti Bee Egg", "Mutation Spray Glimmering" },
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Loquat", "Feijoa", "Pitcher Plant" },
+    
+    BUY_EVENT_SHOP = {"Enchanted Chest", "Luminous Sprite", "Drake" },
+    MAX_EVENT_RESTOCK_SHECKLES = 480000001,
+    
     CLAIM_FAIRY_REWARD = { "Mutation Spray Glimmering", "Enchanted Egg", "Enchanted Seed Pack", "FairyPoints" },
     PLANT_EVENT_TREES = true,  -- This config will replace most plant related config
     PLACE_COSMETIC = { "Cooking Kit" },
@@ -87,22 +95,23 @@ eventConfig = {
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
     NOTIFY_PETS_WEIGHT = 5,
-    KEEP_PETS = {"Cockatrice", ["Pixie"]=8, ["Imp"]=8, ["Glimmering Sprite"]=8, "Gnome", "Griffin", ["Rooster"] = 5, "Lemon Lion", "Apple Gazelle", "Peach Wasp", "Chicken Zombie", ["Gorilla Chef"] = 8, "Green Bean", ["Golem"] = 2, "Golden Goose", ["Spriggan"] = 2, "Lobster Thermidor", ["Sunny-Side Chicken"] = 18, ["Junkbot"] = 2, "French Fry Ferret", ["Spaghetti Sloth"] = 1, ["Mochi Mouse"] = 1, ["Kodama"] = 1, "Corrupted Kitsune", ["Starfish"] = 10, ["Capybara"] = 1, ["Tanchozuru"] = 1, ["Seal"] = 1, "Kitsune", "Blood Kiwi", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox" },
+    KEEP_PETS = { "Phoenix", "Drake", "Wisp", "Luminous Sprite", "Cockatrice", ["Pixie"]=2, ["Glimmering Sprite"]=8, "Peacock", "Ostrich", "Gnome", "Griffin", ["Rooster"] = 8, "Lemon Lion", "Apple Gazelle", "Peach Wasp", "Chicken Zombie", ["Gorilla Chef"] = 8, "Green Bean", ["Golem"] = 2, "Golden Goose", ["Spriggan"] = 2, "Lobster Thermidor", ["Sunny-Side Chicken"] = 18, ["Junkbot"] = 2, "French Fry Ferret", ["Spaghetti Sloth"] = 1, ["Mochi Mouse"] = 1, ["Kodama"] = 1, "Corrupted Kitsune", ["Starfish"] = 10, ["Capybara"] = 1, ["Tanchozuru"] = 1, ["Seal"] = 1, "Kitsune", "Blood Kiwi", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox" },
     KEEP_PETS_WEIGHT = 5,
-    KEEP_PETS_AGE = 90,
+    KEEP_PETS_AGE = 75,
 
      -- EQUIP_PETS Priority (Left -> Right)
     EQUIP_PETS = {"Glimmering Sprite", ["Capybara"]=1, ["Starfish"] = 3,["Rooster"] = 4},
-    USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara", "Brown Mouse", "Grey Mouse", "Rooster"},
-    REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },  -- Unequip from garden
+    USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara", "Brown Mouse", "Grey Mouse", "Rooster", "Black Bunny", "Dog", "Bunny", "Chicken", "Rooster", "Glimmering Sprite"},
+    REMOVE_PET_MAX_UPGRADE = { "Starfish", "Capybara", "Brown Mouse", "Grey Mouse", "Rooster", "Black Bunny", "Dog", "Bunny", "Chicken", "Rooster"},
+    
 
-    BUY_GEAR_SHOP = { "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket" },
-    USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler"},
+    BUY_GEAR_SHOP = { "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket", "Medium Toy", ["Harvest Tool"] = 10--[["Cleansing Pet Shard", "Cleaning Spray"--]]},
+    USE_SPRINKLER = { "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler"},
 
 
     PET_WEBHOOK_URL = marmotWebhookURL,
     SEED_WEBHOOK_URL = marmotWebhookURL, 
-    NOTIFY_PETS = {"Cockatrice", "Griffin", "Golden Goose", "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", "Kitsune", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "T-Rex", "Red Fox", "Spinosaurus"},
+    NOTIFY_PETS = {"Drake", "Phoenix", "Cockatrice", "Griffin", "Golden Goose", "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", "Kitsune", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "T-Rex", "Red Fox", "Spinosaurus"},
     DISCORD_ID = myDiscordID,
     WEBHOOK_NOTE = "",
     SHOW_WEBHOOK_USERNAME = true,
