@@ -1,6 +1,6 @@
 AUTO_GIFT_PETS = {"Cockatrice", "Dragonfly", "Golden Goose", "Red Fox", "Mimic Octopus"}
 AUTO_GIFT_BASE_WEIGHT = 5
-AUTO_GIFT_USERNAMES = {"babaorganik"}
+AUTO_GIFT_USERNAMES = {"babaorganik", "emrekarseal", "sturtevant69", "rogod"}
 -- to add bot by bot pet
 AG_RECEIVER_MODE = "marmot" -- marmot / upgrade #DISABLED
 UPGRADE_SETTINGS = { -- DISABLED
