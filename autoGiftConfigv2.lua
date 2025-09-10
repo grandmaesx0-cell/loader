@@ -1,16 +1,17 @@
 AUTO_GIFT_PETS = { -- letter pet fixes
-  ["ckt"] = "Cockatrice", 
-  ["dgf"] = "Dragonfly", 
-  ["gog"] = "Golden Goose", 
-  ["rfx"] = "Red Fox", 
-  ["mim"] = "Mimic Octopus"
+    ["tag"] = "WEIGHT",
+    ["ckt"] = "Cockatrice", 
+    ["dgf"] = "Dragonfly", 
+    ["gog"] = "Golden Goose", 
+    ["rfx"] = "Red Fox", 
+    ["mim"] = "Mimic Octopus"
 }
 AUTO_GIFT_USERNAMES = { -- 5 letter prefixes
-  "weight",
-  "anjex", 
-  "emrek", 
-  "fenrr", 
-  "rogod"
+    "weigh",
+    "anjex", 
+    "emrek", 
+    "fenrr", 
+    "rogod"
 }
 AUTO_GIFT_BASE_WEIGHT = 5
 AG_RECEIVER_MODE = "marmot" -- marmot / upgrade #DISABLED
