@@ -68,7 +68,7 @@ eventConfig = {
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Loquat", "Feijoa", "Pitcher Plant" },
     
     BUY_EVENT_SHOP = {"Enchanted Chest", "Luminous Sprite", "Drake" },
-    MAX_EVENT_RESTOCK_SHECKLES = 480000001,
+    MAX_EVENT_RESTOCK_SHECKLES = 4800000001,
     
     CLAIM_FAIRY_REWARD = { "Mutation Spray Glimmering", "Enchanted Egg", "Enchanted Seed Pack", "FairyPoints" },
     PLANT_EVENT_TREES = true,  -- This config will replace most plant related config
