@@ -41,7 +41,7 @@ freshConfig = {
     KEEP_PETS_AGE = 75,
 
      -- EQUIP_PETS Priority (Left -> Right)
-    EQUIP_PETS = {["Capybara"]=1, ["Starfish"] = 3,["Rooster"] = 8},
+    EQUIP_PETS = {["Rooster"] = 8, "Capybara"]=1, ["Starfish"] = 3},
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara", "Brown Mouse", "Grey Mouse", "Rooster", "Black Bunny", "Dog", "Bunny", "Chicken", "Rooster", "Glimmering Sprite"},
     REMOVE_PET_MAX_UPGRADE = { "Starfish", "Capybara", "Brown Mouse", "Grey Mouse", "Black Bunny", "Dog", "Bunny", "Chicken", "Rooster"},
 
@@ -96,7 +96,7 @@ eventConfig = {
     KEEP_PETS_AGE = 75,
 
      -- EQUIP_PETS Priority (Left -> Right)
-    EQUIP_PETS = {["Capybara"]=1, ["Starfish"] = 3,["Rooster"] = 8},
+    EQUIP_PETS = {["Rooster"] = 8, "Capybara"]=1, ["Starfish"] = 3},
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara", "Brown Mouse", "Grey Mouse", "Rooster", "Black Bunny", "Dog", "Bunny", "Chicken", "Rooster", "Glimmering Sprite"},
     REMOVE_PET_MAX_UPGRADE = { "Starfish", "Capybara", "Brown Mouse", "Grey Mouse", "Black Bunny", "Dog", "Bunny", "Chicken", "Rooster"},
     
