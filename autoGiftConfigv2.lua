@@ -5,7 +5,9 @@ AUTO_GIFT_PETS = { -- letter pet fixes
     ["gog"] = "Golden Goose", 
     ["rfx"] = "Red Fox", 
     ["mim"] = "Mimic Octopus",
-    ["pho"] = "Phoenix"
+    ["pho"] = "Phoenix",
+    ["btf"] = "Butterfly",
+    ["dsc"] = "Disco Bee"
 }
 AUTO_GIFT_USERNAMES = { -- 5 letter prefixes
     "weigh",
