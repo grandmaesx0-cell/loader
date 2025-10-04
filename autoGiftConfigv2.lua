@@ -12,7 +12,6 @@ AUTO_GIFT_PETS = { -- letter pet fixes
 AUTO_GIFT_USERNAMES = { -- 5 letter prefixes
     "weigh",
     "anjex", 
-    "emrek", 
     "fenrr", 
     "rogod"
 }
