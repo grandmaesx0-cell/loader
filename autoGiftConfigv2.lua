@@ -1,9 +1,9 @@
 AUTO_GIFT_PETS = { -- letter pet fixes
     ["tag"] = "WEIGHT",
-    ["ckt"] = "Cockatrice", 
-    ["dgf"] = "Dragonfly", 
-    ["gog"] = "Golden Goose", 
-    ["rfx"] = "Red Fox", 
+    ["ckt"] = "Cockatrice",
+    ["dgf"] = "Dragonfly",
+    ["gog"] = "Golden Goose",
+    ["rfx"] = "Red Fox",
     ["mim"] = "Mimic Octopus",
     ["pho"] = "Phoenix",
     ["btf"] = "Butterfly",
