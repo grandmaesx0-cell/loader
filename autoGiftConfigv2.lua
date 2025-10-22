@@ -8,7 +8,7 @@ AUTO_GIFT_PETS = { -- letter pet fixes
     ["pho"] = "Phoenix",
     ["btf"] = "Butterfly",
     ["dsc"] = "Disco Bee",
-    ["bld"] = "Bald Eagle"
+    ["bld"] = "Bald Eagle"
 }
 AUTO_GIFT_USERNAMES = { -- 5 letter prefixes
     "weigh",
