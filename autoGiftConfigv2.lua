@@ -1,4 +1,4 @@
-AUTO_GIFT_PETS = { -- letter pet fixes
+AUTO_GIFT_PETS = { -- letter pet fixes fixed whitespace
     ["tag"] = "WEIGHT",
     ["ckt"] = "Cockatrice",
     ["dgf"] = "Dragonfly",
