@@ -1,14 +1,13 @@
 AUTO_GIFT_PETS = { -- letter pet fixes fixed whitespace
     ["tag"] = "WEIGHT",
-    ["ckt"] = "Cockatrice",
-    ["dgf"] = "Dragonfly",
-    ["gog"] = "Golden Goose",
-    ["rfx"] = "Red Fox",
-    ["mim"] = "Mimic Octopus",
-    ["pho"] = "Phoenix",
-    ["btf"] = "Butterfly",
+    ["kit"] = "Kitsune",
     ["dsc"] = "Disco Bee",
-    ["bld"] = "Bald Eagle"
+    ["btf"] = "Butterfly",
+    ["mim"] = "Mimic Octopus",
+    ["pea"] = "Peacock",
+    ["bld"] = "Bald Eagle",
+    ["koi"] = "Koi",
+    ["sea"] = "Seal"
 }
 AUTO_GIFT_USERNAMES = { -- 5 letter prefixes
     "weigh",
